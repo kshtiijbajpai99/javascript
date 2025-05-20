@@ -39,3 +39,29 @@ console.log(typeof myfunction)
 
 //*************null kam datatype object aata ha */
 
+//********************************************8 */
+
+
+
+// stack (primitve), heap( non primitive)
+
+let myYoutubename="kshitijbajpai.com"
+
+let anothername= myYoutubename
+anothername="chaiorsutta"
+
+
+console.log(anothername);
+console.log(myYoutubename);
+
+let userone={
+    email:"userupi.com",
+    upi :"user@ybl"
+
+}
+let usertwo=userone
+
+usertwo.email="kshitij@google.com"
+
+console.log(userone.email);
+console.log(usertwo.email);
